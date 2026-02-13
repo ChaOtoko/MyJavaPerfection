@@ -1,3 +1,3 @@
 rem Add any options/flags onto the end of this line to change the input/output.
 rem For example I'd start with --help
-java -cp target\classes:lib org.test.seven_twenty.Main
+java -cp target\classes;lib\* org.test.seven_twenty.Main
