@@ -1,0 +1,8 @@
+* input = null -> returns null X
+* input.isEmpty(); -> returns null X
+* General check that it doesn't throw a NullPointerException. X
+* input = no processable input. -> returns (I presume) an empty String. X
+* input = invalid character at start -> returns processed String excluding beginning invalid character. X
+* input = invalid character at end -> returns processed String excluding finishing invalid character. X
+* input = invalid character in the middle with the character before and after it being the same. -> returns processed String where the 2 same characters are in their own "groups". X
+* input = A character with so many occurences in a row that it causes an overflow -> throws ArithmeticException. X
