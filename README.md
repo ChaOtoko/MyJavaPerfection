@@ -11,6 +11,6 @@ The project was created in IntelliJ IDEA. I have created run configurations that
 
 To manually run the program I have created the files "basicRun.bat/sh". Just add any flags/options to the end of the java line such as "--help".
 
-# Improvements
+# Future Improvements
 - Concurrency
 - Unit tests for Main.
